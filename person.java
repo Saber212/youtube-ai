@@ -9,4 +9,12 @@ public class person {
     public void setName(String newName) {
         this.name = newName;
     }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
 }
