@@ -1,6 +1,10 @@
 public class program {
     public static void main(String[] args) {
-        System.out.println("hello world");
 
+        person p = new person();
+
+        p.setName("Saber");
+
+        p.print(p.getName());
     }
 }

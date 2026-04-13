@@ -9,4 +9,8 @@ public class person {
     public void setName(String newName) {
         this.name = newName;
     }
+
+    public void print(String string) {
+        System.out.println(string);
+    }
 }
